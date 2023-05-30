@@ -27,7 +27,7 @@ body {
 }
 
 .padding-div-t-b {
-    padding: 11.3rem 0;
+    padding: 8rem 0;
 }
 
 /* Link */
@@ -49,13 +49,13 @@ a:hover {
     color: #24306e;
     border: none;
     border-radius: 1.6rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: .8rem 1.4rem;
     cursor: pointer;
 }
 
 .btn span {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .btn:hover {
@@ -116,6 +116,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    padding: 11.3rem 0;
 }
 
 .header-centered {
@@ -134,7 +135,7 @@ header {
 }
 
 .header-section p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 2rem 0 1rem 0;
     line-height: 2rem;
 }
@@ -145,16 +146,24 @@ header {
 /* end HEADER */
 
 /* start MAIN */
-.div-blue {
-    background-color: #1e90ff;
-    min-height: 350px;
+.div-big {
     flex-grow: 2;
 }
 
-.div-pink {
-    background-color: #ffc0cb;
-    min-height: 350px;
+.div-small {
     flex-grow: 1;
+}
+
+.div-small h2 {
+    font-size: 2.8rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.div-small p {
+    font-size: 1.3rem;
+    padding: 2rem 0 1rem 0;
+    line-height: 2rem;
 }
 
 .div-green {
@@ -164,7 +173,7 @@ header {
 }
 
 .background-grey {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 /* end MAIN */
 
