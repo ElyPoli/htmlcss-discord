@@ -9,7 +9,7 @@ body {
 }
 
 .centered {
-    max-width: 980px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .padding-div-t-b {
-    padding: 30px 0 30px 0;
+    padding: 11.3rem 0;
 }
 
 /* Link */
@@ -48,10 +48,14 @@ a:hover {
     background-color: #ffffff;
     color: #24306e;
     border: none;
-    border-radius: 1rem;
-    font-size: 1rem;
-    padding: .5rem .8rem;
+    border-radius: 1.6rem;
+    font-size: 1.5rem;
+    padding: .8rem 1.4rem;
     cursor: pointer;
+}
+
+.btn span {
+    font-size: 1.3rem;
 }
 
 .btn:hover {
@@ -59,10 +63,23 @@ a:hover {
     -moz-box-shadow: 0 0 1em 0 #24306e;
     -o-box-shadow: 0 0 1em 0 #24306e;
     box-shadow: 0 0 1em 0 #24306e;
+    color: #255ee9;
 }
 
 .btn-small {
+    font-size: 1rem;
+    padding: .5rem .8rem;
+    border-radius: 1rem;
+}
 
+.btn-dark {
+    background-color: #23272a;
+    color: #ffffff;
+}
+
+.btn-dark:hover {
+    background-color: #424649;
+    color: #ffffff;
 }
 
 /*******/
@@ -91,24 +108,39 @@ nav {
 .nav-link {
     flex-grow: 2;
 }
-
 /* end NAV */
 
 /* start HEADER */
 header {
-    background-color: #00008b;
-}
-
-.header-section {
-    background-color: #ee82ee;
-    min-height: 300px;
-    border: 2px dashed black;
-    border-radius: 5px;
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 .header-centered {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+.header-section {
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
+.header-section p {
+    font-size: 1.5rem;
+    padding: 2rem 0 1rem 0;
+    line-height: 2rem;
+}
+
+.header-section .btn-dark {
+    margin-left: 1.1rem;
 }
 /* end HEADER */
 
