@@ -26,6 +26,16 @@ body {
     padding: 8rem 0;
 }
 
+.wave-grey {
+    color: #f6f6f6;
+    background-color: #ffffff;
+}
+
+.wave-white {
+    color: #ffffff;
+    background-color: #f6f6f6;
+}
+
 /* Link */
 a {
     color: #ffffff;
