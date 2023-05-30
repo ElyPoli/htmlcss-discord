@@ -146,7 +146,7 @@ header {
 /* end HEADER */
 
 /* start MAIN */
-.div-big {
+.div-medium {
     flex-grow: 2;
 }
 
@@ -164,12 +164,20 @@ header {
     font-size: 1.3rem;
     padding: 2rem 0 1rem 0;
     line-height: 2rem;
+    text-align: left;
 }
 
-.div-green {
-    background-color: #228b22;
-    min-height: 650px;
-    width: 100%;
+.div-big h2 {
+    font-size: 2.8rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.div-big p {
+    font-size: 1.3rem;
+    padding: 2rem 0 1rem 0;
+    line-height: 2rem;
+    text-align: center;
 }
 
 .background-grey {
